@@ -44,16 +44,16 @@ public class FiveCardStudPanel extends JPanel {
 		 * 
 		 *          	 --- --- --- --- ---
 		 *  Player 1 	 | | | | | | | | | |
-		 *         		 --- --- --- --- ---
-		 *     			 --- --- --- --- ---
+		 *               --- --- --- --- ---
+		 *     	         --- --- --- --- ---
 		 *  Computer 1   | | | | | | | | | |  // All face down
-		 *     			 --- --- --- --- ---
-		 *  		     --- --- --- --- ---
+		 *     		 --- --- --- --- ---
+		 *  		 --- --- --- --- ---
 		 *  Computer 2   | | | | | | | | | |
-		 *     			 --- --- --- --- ---
-		 *     			 --- --- --- --- ---
+		 *     	         --- --- --- --- ---
+		 *     		 --- --- --- --- ---
 		 *  Computer 3   | | | | | | | | | |
-		 *     			 --- --- --- --- ---
+		 *     		 --- --- --- --- ---
 		 *     
 		 * 3) Once card has been dealt we have to prompt the users how many cards to replace, and which cards (either by name or by index)
 		 * 4) Translate them off screen, and replace them with cards
